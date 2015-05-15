@@ -9,7 +9,7 @@ ShareSdk.prototype.send = function (message) {
     if (!message) {
         return;
     } 
-    exec(null, null, "ShareSdk", "send", [message]);
+    exec(null, null, "sharesdk.cordova", "send", [message]);
 };
 
 module.exports = new ShareSdk();
